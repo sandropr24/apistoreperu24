@@ -71,7 +71,6 @@ const sql = "UPDATE productos SET idmarca=?, descripcion=?, precio=?, stock=?, g
 
 
 app.delete('/productos/:id', (req, res) => { 
-   console.log("DELETE funcionando")
 
   const {id} = req.params
 
